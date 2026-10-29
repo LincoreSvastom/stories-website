@@ -4,19 +4,25 @@ Standalone, static English website for Stories (RedditTikTok Studio).
 Operator: Ravil Faizrahmanov (Файзрахманов Равиль Равильевич), independent
 individual developer, Republic of Kazakhstan. No company/legal entity is represented.
 
-## Status: approved for publication; live deployment pending
+## Status: published and verified
 
 On 29 October 2026 the owner confirmed the legal documents, operator name and
 public contact reddittiktokstudio.support@gmail.com and explicitly authorized
 creation of PUBLIC LincoreSvastom/stories-website, website-only push and GitHub Pages
 publication. The documents are prepared with effective/updated date 29 October 2026.
-A successful live deployment must still be independently verified before reporting
-its URLs. Desktop source and user data are excluded.
+Live GitHub Pages deployment succeeded on 29 October 2026 (Actions run 40799228394).
+Home, Privacy and Terms were independently checked over HTTPS on desktop/mobile
+(HTTP 200, no horizontal overflow or page errors). Desktop source and user data are excluded.
+
+- Website: https://lincoresvastom.github.io/stories-website/
+- Privacy: https://lincoresvastom.github.io/stories-website/privacy.html
+- Terms: https://lincoresvastom.github.io/stories-website/terms.html
+- Successful run: https://github.com/LincoreSvastom/stories-website/actions/runs/40799228394
 
 ## Repository separation
 
 Public website-only repository: `https://github.com/LincoreSvastom/stories-website`.
-Repository creation and Public visibility were verified on 29 October 2026. Live Pages deployment is pending verification.
+Repository creation and Public visibility were verified on 29 October 2026. Live HTTPS deployment has been independently verified.
 Do not copy desktop source, its Git history, databases, tokens, config, screenshots
 with private paths, videos, logs or binaries here. Do not repurpose existing repositories.
 The desktop repository remains local; if later hosted it must stay private unless
@@ -33,7 +39,7 @@ python -m http.server 8768 --bind 127.0.0.1 --directory _site
 No Node build, external font, analytics, JavaScript, account form or token exchange.
 Relative links support a GitHub Pages project subpath.
 
-## Required steps before public actions
+## Publication checklist for future changes
 
 1. Keep the confirmed PUBLIC support/privacy email consistent on all three pages.
 2. Review the legal text with the operator. Confirm the offered distribution/support
