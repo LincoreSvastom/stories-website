@@ -6,7 +6,7 @@ import re
 import sys
 
 ROOT=Path(__file__).resolve().parents[1]
-PUBLIC_FILES=('index.html','privacy.html','terms.html','styles.css','favicon.svg','.nojekyll')
+PUBLIC_FILES=('index.html','privacy.html','terms.html','styles.css','favicon.svg','.nojekyll','tiktokziOlpLn6i4Mwvp47Pcc1K6D306CsTad4.txt')
 
 
 class Page(HTMLParser):
